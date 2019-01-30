@@ -1,10 +1,28 @@
-body{
+body
+{
     background-color: #f0f0f1!important;
+}
+
+.button-todo
+{
+    background-color: #52c0cb !important;
+    color: white !important;
 }
 
 .note-body
 {
     margin-top: 2%;
-    background-color:white !important;
     padding: 2%;
+}
+
+.error-message-label
+{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.undernav, .note-body
+{
+    background-color:white !important;
 }
