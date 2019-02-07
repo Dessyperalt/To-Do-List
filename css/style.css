@@ -26,3 +26,9 @@ body
 {
     background-color:white !important;
 }
+
+.done
+{
+    text-decoration: line-through!important;
+    color: #6c757d;
+}
