@@ -25,12 +25,6 @@
         </div>
     </nav>
 
-    <ul class="nav justify-content-end undernav">
-        <li class="nav-item button-todo">
-            <a class="nav-link button-todo" href="#" data-toggle="modal" data-target="#AddToDo">+ Add task</a>
-        </li>
-    </ul>
-
     <div class="modal" id="AddToDo" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -57,40 +51,18 @@
 
     <div class="container note-body">
         <div class="row">
+            <div class="col">
+                <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#AddToDo">Add
+                    task</a>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 col-md-12">
                 <div>
-                    <h2>Task to do</h2>
+                    <h2>Tasks</h2>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item" id="li1">Cras justo odio
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </li>
-                    <li class="list-group-item">
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        Dapibus ac facilisis in
-                    </li>
-                    <li class="list-group-item">
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        Morbi leo risus
-                    </li>
-                    <li class="list-group-item">
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        Porta ac consectetur ac
-                    </li>
-                    <li class="list-group-item">
-                        <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        Vestibulum at eros
-                    </li>
                 </ul>
             </div>
         </div>
