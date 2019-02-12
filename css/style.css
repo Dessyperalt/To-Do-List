@@ -5,8 +5,11 @@ body
 
 .note-body
 {
+    background-color:white !important;
     margin-top: 2%;
     padding: 2%;
+    box-shadow: 10px 10px 30px #c8c8c8 !important;
+    border: 1px solid #c8c8c8;
 }
 
 .error-message-label
@@ -16,19 +19,13 @@ body
     display: none;
 }
 
-.note-body
-{
-    background-color:white !important;
-}
-
 .done
 {
     text-decoration: line-through!important;
     color: #6c757d;
 }
 
-#li1
-{
+li:first-child { 
     border-top: 0;
 }
 
