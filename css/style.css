@@ -31,5 +31,5 @@ li:first-child {
 
 li
 {
-    cursor: default!important;
+    cursor: pointer!important;
 }
